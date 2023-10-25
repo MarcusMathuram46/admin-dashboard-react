@@ -3,13 +3,8 @@ import React from 'react'
 function App() {
   return (
     <div>
-      
     <div id="wrapper">
-
-       
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
@@ -17,24 +12,19 @@ function App() {
                 <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
             </a>
 
-            
-            <hr class="sidebar-divider my-0">
+            <hr class="sidebar-divider my-0"></hr>
 
-      
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-
             
-            <hr class="sidebar-divider">
-
+            <hr class="sidebar-divider"></hr>
             
             <div class="sidebar-heading">
                 Interface
             </div>
-
             
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -50,7 +40,6 @@ function App() {
                     </div>
                 </div>
             </li>
-
             
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
@@ -69,15 +58,12 @@ function App() {
                     </div>
                 </div>
             </li>
-
             
-            <hr class="sidebar-divider">
-
+            <hr class="sidebar-divider"></hr>
             
             <div class="sidebar-heading">
                 Addons
             </div>
-
             
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -98,39 +84,35 @@ function App() {
                     </div>
                 </div>
             </li>
-
             
             <li class="nav-item">
                 <a class="nav-link" href="charts.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
-
             
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
             </li>
-
             
-            <hr class="sidebar-divider d-none d-md-block">
-
+            <hr class="sidebar-divider d-none d-md-block"></hr>
             
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
             
             <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
+                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..."></img>
                 <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
                 <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
             </div>
-        </ul>
+
+        </ul>        
     </div>
     </div>
   )
 }
 
-export default App
+export default App;
